@@ -18,6 +18,9 @@ model User {
   Project    Project[]
   Experience Experience[]
   Social     Social[]
+
+  @@unique([name, email])
+  @@index([email])
 }
 
 enum Role {

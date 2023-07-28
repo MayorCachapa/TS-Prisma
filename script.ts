@@ -10,7 +10,8 @@ async function main() {
     //     id: 1
     // }})
 
-    
+    // await prisma.user.deleteMany() <---- deletes all users. You can always reset the db by entering npx prisma migrate reset
+
 }
 
 main()
