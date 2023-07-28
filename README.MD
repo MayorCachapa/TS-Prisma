@@ -35,3 +35,17 @@ This project is a test implementation of the schema for a portfolio. These are t
 7. Once a model is defined, we migrate our database by using the following command. For this example, we named it 'init':
 
 `npx prisma migrate dev --name init`
+
+8. Inside the package.json, we add the following line to our scripts:
+
+```json
+  "scripts": {
+    "devStart": "nodemon script.ts"
+  },
+```
+
+9. Create a file called script.ts. Here, we import and call the Prisma client to generate and call our data
+
+10. Once all functions are defined, we then run the following command in the terminal to run nodemon:
+
+`npm run devStart`
