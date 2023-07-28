@@ -35,5 +35,3 @@ This project is a test implementation of the schema for a portfolio. These are t
 7. Once a model is defined, we migrate our database by using the following command. For this example, we named it 'init':
 
 `npx prisma migrate dev --name init`
-
-8. 
